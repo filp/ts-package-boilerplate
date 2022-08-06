@@ -12,6 +12,7 @@
     "test": "jest .",
     "build": "tsc -b .",
     "dev": "ts-node src/index.ts",
+    "prod": "node build/src/index",
     "prepack": "yarn lint && yarn test && yarn build"
   },
   "devDependencies": {
