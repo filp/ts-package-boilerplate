@@ -1,5 +1,5 @@
-coverage
+/coverage
+/src
 .github
-src
 .eslintrc.js
 jest.config.js
